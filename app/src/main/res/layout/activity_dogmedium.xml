@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".dogmedium">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="845dp">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="@string/select_your_favorite_dog_here"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="317dp"
+            android:layout_height="220dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="72dp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/goldenretriever2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="208dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="302dp"
+            android:text="golden retriver"
+            android:onClick="sendgolden"
+            android:textColor="@color/colorPrimary"
+            android:background="#b8c7e0"/>
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="317dp"
+            android:layout_height="220dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="351dp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/husky1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="223dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="574dp"
+            android:background="#b8c7e0"
+            android:onClick="sendhusky"
+            android:text="husky"
+            android:textColor="@color/colorPrimary" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="317dp"
+            android:layout_height="220dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="612dp"
+            android:contentDescription="tesssst"
+            app:srcCompat="@drawable/dalmation1" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="839dp"
+            android:background="#b8c7e0"
+            android:onClick="senddalmation"
+            android:text="dalmation"
+            android:textColor="@color/colorPrimary" />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

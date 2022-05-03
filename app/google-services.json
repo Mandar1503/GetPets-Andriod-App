@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "533033715632",
+    "firebase_url": "https://getpets-78120.firebaseio.com",
+    "project_id": "getpets-78120",
+    "storage_bucket": "getpets-78120.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533033715632:android:1df3bf0d30cf9dfa",
+        "android_client_info": {
+          "package_name": "com.example.admin.getpets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533033715632-a78heulusjg9f6s5tfmd8su6usvk5r8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzWK1zJCRjAYtCSa38py9OS0nmxRKJzOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
